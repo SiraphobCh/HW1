@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    gap: 8px;
+}
+.circular-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.circular-border img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.table-education {
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-education th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.table-education td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.table-work {
+    border: 2px solid red;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+.table-work td {
+    border: 2px solid silver;
+    padding: 8px;
+}
+.table-work tr:first-child td {
+    background-color: aliceblue;
+}
+.contact-field {
+    border-radius: 10px;
+    margin-right: 1000px;
+    padding-left: 40px;
+}
+form select {
+    width: 150px;
+}
